@@ -37,13 +37,6 @@ Number | tested?
 52820 | nope
 52811 | (ordered)
 
-### SDK
-
-[Nordic SOC SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK)
-sadly only emulates the 52811, and does not support Direction Finding.
-
-[Arduino adoption](https://github.com/sandeepmistry/arduino-nRF5)
-
 # WIFI scanning
 
 https://github.com/schollz/find-lf

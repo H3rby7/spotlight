@@ -58,3 +58,6 @@ https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommo
 * [Docs nRF52811](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52811.html&cp=3_3)
 * [Docs DevKit for nRF52840](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fnrf52840_DK%2Fkit_content.html)
 * [Some Q&A on 5.1 AoA with nRF52811](https://devzone.nordicsemi.com/f/nordic-q-a/53729/nrf52811-aoa-mode-config)
+* [Nordic SOC DK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK)
+sadly only emulates the 52811, and does not support Direction Finding.
+* [Arduino adoption of nordic SDK](https://github.com/sandeepmistry/arduino-nRF5)

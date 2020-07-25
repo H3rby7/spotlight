@@ -21,23 +21,27 @@ See [Technology](./research/Technologies.md)
 
 # Approach
 
-## NExt
+## Next
 
+- [x] Find documentation files
+- [x] Setup next steps
 - [ ] Wire nRF52811 to Arduino Board
     - [ ] [Hardware wiring](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommon%2Fnordic_tools.html)
-        - [ ] Antenna Array
+        - [ ] Antenna Array (MAke sure to Follow PCB Guidelines as in nRF52811 spec, 7.3.8)
     - [ ] Check for bluetooth to work (How is to be determined)
 - [ ] A beacon sending a constant signal, received by arduino
 - [ ] Setup AoA mode for nRF52811 
 - [ ] Receive IQ data (basically the raw data) and dump to CSV
 - [ ] Visualize IQ data in excel or something
 - [ ] Interpret Data / Use one of the AoA algorithms
+
+Then get a movinghead and wire it up.
  
     
 ## Reads
 
-- [ ] Bluetooth 5.1 Core Specification Vol 6 Part B (that'S a lot of info - dämn [100 pages])
-- [ ] [nRF52811 Product Specification](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52811.html&cp=3_3)  chapter 6.14.12
+- [ ] [Bluetooth 5.1 Core Specification Vol 6 Part B](./research/ext_resources/Core_v5.1.pdf)
+- [ ] [nRF52811 Product Specification](./research/ext_resources/nRF52811_PS_v1.0.pdf)  chapter 6.14.12
 
 # Setup
 

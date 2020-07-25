@@ -1,3 +1,4 @@
 # Contents
 
-* [Technolgy](./Technologies.md)
+* [Technology](./Technologies.md)
+* [External Resources](./ext_resources/Readme.md)

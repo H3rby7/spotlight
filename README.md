@@ -45,7 +45,9 @@ Then get a movinghead and wire it up.
 
 # Setup
 
-(hypothetical, right now I do not know what is necessary)
+[Here are my steps so far](./research/Setup-Done.md)
+
+### (hypothetical, right now I do not know what is necessary)
 
 https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommon%2Fnordic_tools.html
 
@@ -61,3 +63,4 @@ https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommo
 * [Nordic SOC DK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK)
 sadly only emulates the 52811, and does not support Direction Finding.
 * [Arduino adoption of nordic SDK](https://github.com/sandeepmistry/arduino-nRF5)
+* [Another Adruino LIB](https://github.com/adafruit/Adafruit_nRF52_Arduino) - probably faster to adopt BT5.1

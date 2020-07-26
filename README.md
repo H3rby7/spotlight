@@ -64,3 +64,4 @@ https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommo
 sadly only emulates the 52811, and does not support Direction Finding.
 * [Arduino adoption of nordic SDK](https://github.com/sandeepmistry/arduino-nRF5)
 * [Another Adruino LIB](https://github.com/adafruit/Adafruit_nRF52_Arduino) - probably faster to adopt BT5.1
+* [Circuit IO](https://www.circuito.io/) for some drawing

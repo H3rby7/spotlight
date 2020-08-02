@@ -10,7 +10,7 @@ It may be possible to control more feature of the Moving-Head with an app or voi
 
 # Technology
 
-* For angling, see [angle of arrival](./aoa/README.md)
+* For angling, see [angle of arrival](aiming/README.md)
 
 # Approach
 

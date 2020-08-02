@@ -35,7 +35,7 @@ STATUS: nrf52811 chips are 6mm<sup>2</sup>
 
 # Setup
 
-[Here are my steps so far](research/Setup-Done.md)
+[Here are my steps so far](research/bluetooth/Setup-Done.md)
 
 ### (hypothetical, right now I do not know what is necessary)
 

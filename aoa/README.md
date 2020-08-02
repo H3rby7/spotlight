@@ -1,13 +1,3 @@
-# Autospot
-
-Idea is to have a "Moving-Head" (a light) connected to a form of beacon. The light will always point to that beacon.
-
-## Further
-
-It may be possible to control more feature of the Moving-Head with an app or voice commands or gestures or whatever really
-
-* I heard there is also a form of bluetooth ring that might do the trick.
-
 # Technology
 
 I researched a couple of possible technologies. Many of them are used in industry for highly automated production environments for position/location/direction finding.
@@ -23,11 +13,12 @@ See [Technology](research/Technologies.md)
 
 ## Next
 
+STATUS: nrf52811 chips are 6mm<sup>2</sup> 
+
 - [x] Find documentation files
 - [x] Setup next steps
 - [ ] Wire nRF52811 to Arduino Board
     - [ ] [Hardware wiring](research/ext_resources/nRF52811_PS_v1.0.pdf)
-        - [ ] 
         - [ ] Antenna Array (Make sure to Follow PCB Guidelines as in nRF52811 spec, 7.3.8)
     - [ ] Check for bluetooth to work (How is to be determined)
 - [ ] A beacon sending a constant signal, received by arduino
@@ -36,8 +27,6 @@ See [Technology](research/Technologies.md)
 - [ ] Visualize IQ data in excel or something
 - [ ] Interpret Data / Use one of the AoA algorithms
 
-Then get a movinghead and wire it up.
- 
     
 ## Reads
 

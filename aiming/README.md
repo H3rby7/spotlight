@@ -4,6 +4,11 @@ I researched a couple of possible technologies. Many of them are used in industr
 
 See [Research](research/README.md)
 
+## Next Steps
+
+- Find a suitable Kit/Board to attempt AOA with UWB
+- Maybe work on the REST -> DMX (spotlight) part first.
+
 ## Implementation
 
 - Attempted [Bluetooth](./bluetooth/README.md)

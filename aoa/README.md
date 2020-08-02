@@ -17,7 +17,7 @@ with the [nRF52811 chip](https://www.nordicsemi.com/Products/Low-power-short-ran
 I do not work for nordic or anything ;)
 
 
-See [Technology](./research/Technologies.md)
+See [Technology](research/Technologies.md)
 
 # Approach
 
@@ -26,8 +26,9 @@ See [Technology](./research/Technologies.md)
 - [x] Find documentation files
 - [x] Setup next steps
 - [ ] Wire nRF52811 to Arduino Board
-    - [ ] [Hardware wiring](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommon%2Fnordic_tools.html)
-        - [ ] Antenna Array (MAke sure to Follow PCB Guidelines as in nRF52811 spec, 7.3.8)
+    - [ ] [Hardware wiring](research/ext_resources/nRF52811_PS_v1.0.pdf)
+        - [ ] 
+        - [ ] Antenna Array (Make sure to Follow PCB Guidelines as in nRF52811 spec, 7.3.8)
     - [ ] Check for bluetooth to work (How is to be determined)
 - [ ] A beacon sending a constant signal, received by arduino
 - [ ] Setup AoA mode for nRF52811 
@@ -40,12 +41,12 @@ Then get a movinghead and wire it up.
     
 ## Reads
 
-- [ ] [Bluetooth 5.1 Core Specification Vol 6 Part B](./research/ext_resources/Core_v5.1.pdf)
-- [ ] [nRF52811 Product Specification](./research/ext_resources/nRF52811_PS_v1.0.pdf)  chapter 6.14.12
+- [ ] [Bluetooth 5.1 Core Specification Vol 6 Part B](research/ext_resources/Core_v5.1.pdf)
+- [ ] [nRF52811 Product Specification](research/ext_resources/nRF52811_PS_v1.0.pdf)  chapter 6.14.12
 
 # Setup
 
-[Here are my steps so far](./research/Setup-Done.md)
+[Here are my steps so far](research/Setup-Done.md)
 
 ### (hypothetical, right now I do not know what is necessary)
 
@@ -62,6 +63,7 @@ https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommo
 * [Some Q&A on 5.1 AoA with nRF52811](https://devzone.nordicsemi.com/f/nordic-q-a/53729/nrf52811-aoa-mode-config)
 * [Nordic SOC DK](https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK)
 sadly only emulates the 52811, and does not support Direction Finding.
+* [Nordic Tools](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_nrf52840_dk%2FUG%2Fcommon%2Fnordic_tools.html)
 * [Arduino adoption of nordic SDK](https://github.com/sandeepmistry/arduino-nRF5)
 * [Another Adruino LIB](https://github.com/adafruit/Adafruit_nRF52_Arduino) - probably faster to adopt BT5.1
 * [Circuit IO](https://www.circuito.io/) for some drawing

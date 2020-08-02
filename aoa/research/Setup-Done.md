@@ -3,7 +3,7 @@
 This describes all steps as i made them for my first-time setup.
 So some of this will be unnecessary, but necessary to keep track of all I did.
 
-Check out the [things I tried, that did not work](./tried-but-failed.md)
+Check out the [things I tried, that did not work](tried-but-failed.md)
 
 ## Steps
 
